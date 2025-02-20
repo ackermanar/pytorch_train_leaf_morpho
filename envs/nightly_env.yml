@@ -1,0 +1,28 @@
+name: nightly_environment
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - cudatoolkit=10.2
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pillow
+  - pyyaml
+  - tqdm
+  - jupyter
+  - ipykernel
+  - seaborn
+  - h5py
+  - tensorboard
+  - opencv
+  - albumentations
+  - git
+  - pip
+  - pip:
+      - segmentation-models-pytorch
+      - torchsummary
+      - tensorboardX
